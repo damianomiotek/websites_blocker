@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools >= 61.0", "wheel >= 0.38"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "websites_blocker"
+version = "0.8.2"
+dependencies = [
+  "PyQt6==6.6.1",
+  "PyQt6-Qt6==6.6.2",
+  "PyQt6-sip==13.6.0",
+]
+requires-python = ">=3.10"
+authors = [
+  {name = "Damian Omiotek", email = "domiotek@sii.pl"},
+]
+description = "Python GUI app to block websites"
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+keywords = ["python", "gui", "websites", "blocker"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python :: 3.10",
+]
+
+[project.urls]
+Repository = "https://github.com/damianomiotek/websites_blocker"
